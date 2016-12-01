@@ -1,0 +1,5 @@
+GROK CUSTOM PATTERNS WITHOUT A FILE
+
+2016-07-11T23:56:42.000+00:00 INFO [MySecretApp.com.Transaction.Manager]:Starting transaction for session -464410bf-37bf-475a-afc0-498e0199f008
+
+%{TIMESTAMP_ISO8601:timestamp} (?<test>\b\w+\b)
